@@ -24,7 +24,7 @@
 
 /* [1] Constructors and Destructors */
 MimeMessage::MimeMessage(bool createAutoMimeContent) :
-    replyTo(Q_NULLPTR),
+    replyTo(nullptr),
     hEncoding(MimePart::_8Bit)
 {
     if (createAutoMimeContent)
